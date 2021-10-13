@@ -1,15 +1,20 @@
-let a = 1;
-a = a + 2;
+const stage = $("#container");
+const stageHeight = stage.innerHeight();
 
-const myNumber = 2.555;
+const data = [5, 7, 3, 8, 3, 6, 7];
 
-let myString = "HALLOOOO";
+const barWidth = 20;
 
-let myBoolean = false;
-
-let myArray = [1, 2, 3, "myValue", false];
-
-for (let i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]);
+for (let i = 0; i < data.length; i++) {
+    let barHeight = data[i] * 20;
+    let xPos = i * 2 * barWidth;
+    const myBar = $('<div class="bar"></div>');
+    const yPos = stageHeight - barHeight;
+    myBar.css({
+        width: barWidth,
+        height: barHeight,
+        left: xPos,
+        top: yPos
+    });
+    stage.append(myBar);
 }
-

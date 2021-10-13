@@ -1,5 +1,17 @@
 body {
     font-family: "Courier New", sans-serif;
-    background-color: #333333;
+    background-color: #333;
     color: white;
+    margin: 0;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: #444;
+}
+
+.bar {
+    background-color: white;
+    position:absolute;
 }
