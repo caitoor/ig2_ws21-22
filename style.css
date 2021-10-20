@@ -15,3 +15,9 @@ body {
     background-color: white;
     position:absolute;
 }
+
+.circle {
+    position:absolute;
+    border-radius: 50%;
+    background-color:white;
+}
