@@ -1,4 +1,12 @@
 const data = [
+  {
+    "countryName": "TEST",
+    "alpha2Code": "XX",
+    "alpha3Code": "XXX",
+    "numericCode": 999,
+    "latitude": -90,
+    "longitude": 180
+  },
     {
       "countryName": "Afghanistan",
       "alpha2Code": "AF",
