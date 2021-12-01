@@ -1,4 +1,5 @@
 const stage = $("#container");
+const label = $("#mouseover-label");
 const stageHeight = stage.innerHeight();
 const stageWidth = stage.innerWidth();
 let data = [];
@@ -14,19 +15,19 @@ $(function () {
 function prepareData() {
     // merge populationData with positionData
 
-   /*  
-   positionData.forEach((country) => {
-        // console.log(country.alpha3Code);
-        populationData.forEach((popData) => {
-            if (country.alpha3Code === popData.countryCode) {
-                // console.log("it's a match!");
-                let newCountry = country;
-                newCountry.population = popData.population;
-                data.push(newCountry);
-            }
-        });
-    }); 
-    */
+    /*  
+    positionData.forEach((country) => {
+         // console.log(country.alpha3Code);
+         populationData.forEach((popData) => {
+             if (country.alpha3Code === popData.countryCode) {
+                 // console.log("it's a match!");
+                 let newCountry = country;
+                 newCountry.population = popData.population;
+                 data.push(newCountry);
+             }
+         });
+     }); 
+     */
 
     data = gmynd.mergeData(positionData, populationData, "alpha3Code", "countryCode");
 
@@ -62,18 +63,18 @@ function drawMap() {
             top: latitude - countryRadius
         });
 
-        countryCircle.mouseover(function() {
+        countryCircle.data(data[i]);
+
+        countryCircle.mouseover(function () {
             countryCircle.addClass("highlight");
+            label.text(countryCircle.data().countryName);
+        });
+
+        countryCircle.mouseout(function () {
+            countryCircle.removeClass("highlight");
+            // countryCircle.addClass("no-highlight-anymore");
         });
 
         stage.append(countryCircle);
     }
 }
-
-/* function myCoolFunction(param) {
-
-}
-
-(param) => {
-
-} */

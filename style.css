@@ -31,6 +31,10 @@ body {
     background-color: white;
 }
 
+.no-highlight-anymore {
+    background-color: rgb(185, 185, 185);
+}
+
 .highlight {
-    background-color: pink !important;
+    background-color: pink;
 }

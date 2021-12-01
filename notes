@@ -1,7 +1,4 @@
-gdp growth dataset:
-https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
-
-// ÜBERSICHT:
+// Lustige Übungen:
 // 1. Welches Land hat die meisten Einwohner?
 // 2. Welches Land hat die wenigsten Einwohner?
 // 3. Wie viele Länder haben mehr als 100 Mio. Einwohner?
@@ -17,3 +14,12 @@ https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
       // https://github.com/stefangabos/world_countries/blob/master/data/en/countries.json
 // 8. [Experte] Welches Land weist die größte Entfernung zu Deutschland auf?
       // https://stackoverflow.com/questions/18883601/function-to-calculate-distance-between-two-coordinates
+
+Aufgabe 211201:
+Erweitere unseren Code so, dass Länder angeklickt werden können. 
+Geschieht dies, soll sich das Land rot einfärben und in einer zusätzlichen div-Box soll der name des geklickten Landes erscheinen.
+Wird ein anderes Land geklickt, soll das bisher geklickte Land wieder weiß werden.
+
+
+gdp growth dataset:
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
