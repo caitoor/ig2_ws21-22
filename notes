@@ -15,7 +15,24 @@
 // 8. [Experte] Welches Land weist die größte Entfernung zu Deutschland auf?
       // https://stackoverflow.com/questions/18883601/function-to-calculate-distance-between-two-coordinates
 
-Aufgabe 211201:
+Aufgabe 13.10.21:
+Das heutige Diagramm so umprogrammieren, dass es stets die höhe und Breite des #containers vollständig ausfüllt, egal...
+- wie lang das array ist
+- wie hoch die zahlen des arrays sind (die schwerste teilaufgabe. lasst negative zahlen aus dem spiel)
+- wie hoch und breit der container ist
+
+Aufgaben 20.10.21:
+1. Löscht den Code von heute und programmiert ihn selber
+2. das gestackte Diagramm so umprogrammieren, dass es sich wie beim Balkendiagramm immer perfekt dem verfügbaren Platz anpasst. es wird sinnvoll sein, die Größe der Kreise anzupassen.
+3. ummodeln zum regen-diagramm
+
+Aufgaben 24.11.21:
+1. unseren aktuellen stand umprogrammieren, sodass die kreisfläche der bevölkerung entspricht, nciht der durchmesser
+2. die höchste und niedrigste einwohnerzahl aller länder rausfinden
+      2a. bonus: eine allgemeine funktion mit übergebenem parameter schreiben, die für jede eigenschaft das minimum und maximum rausinfdet, also zB auch longitude/latitude
+3. ersten screen des eigenen projekts anfangen
+
+Aufgabe 1.12.21:
 Erweitere unseren Code so, dass Länder angeklickt werden können. 
 Geschieht dies, soll sich das Land rot einfärben und in einer zusätzlichen div-Box soll der name des geklickten Landes erscheinen.
 Wird ein anderes Land geklickt, soll das bisher geklickte Land wieder weiß werden.
