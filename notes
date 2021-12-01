@@ -1,0 +1,19 @@
+gdp growth dataset:
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
+
+// ÜBERSICHT:
+// 1. Welches Land hat die meisten Einwohner?
+// 2. Welches Land hat die wenigsten Einwohner?
+// 3. Wie viele Länder haben mehr als 100 Mio. Einwohner?
+// 4. Ordne die Länder nach Einwohnerzahl.
+      //https://stackoverflow.com/questions/1129216/sort-array-of-objects-by-string-property-value
+//    4a. An welcher Position befindet sich Deutschland ("DEU") in diesem Ranking?
+//    4b. Beseitige alle doppelten Einträge in der Liste, um das Ergebnis nicht zu verfälschen.
+// 5. Welches Land hat für jede Himmelsrichtung jeweils den Maximalwert?
+// 6. Erweitere die Daten um die Angabe des Kontinents (Recherchiere selbständig einen geeigneten Datensatz).
+      // https://github.com/datawookie/data-diaspora/blob/master/spatial/country-continent-codes.csv
+      6a. Ermittle die Länder mit der höchsten Einwohnerzahl jedes Kontinents.
+// 7. Lösche alle Länder, die kein von der UNO offiziell anerkannter Staat sind.
+      // https://github.com/stefangabos/world_countries/blob/master/data/en/countries.json
+// 8. [Experte] Welches Land weist die größte Entfernung zu Deutschland auf?
+      // https://stackoverflow.com/questions/18883601/function-to-calculate-distance-between-two-coordinates
