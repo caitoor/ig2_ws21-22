@@ -15,9 +15,14 @@ body {
     height: 300px;
 }
 
-#mouseover-label {
+#mouseover-label,
+#click-label {
     height: 50px;
     width: 600px;
+}
+
+#click-label {
+    color:red;
 }
 
 .bar {
@@ -37,4 +42,8 @@ body {
 
 .highlight {
     background-color: pink;
+}
+
+.clicked {
+    background-color: red;
 }
