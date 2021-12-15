@@ -9,14 +9,11 @@ let data;
 let cumulatedByContinent;
 let groupedByContinent;
 
-let maxPopulation = 1;
-
 $(function () {
     console.log(positionData.length, " countries total before merge");
     prepareData();
     console.log(data.length, " countries total after merge");
-    // drawMap();
-    stackedDiagram();
+    init();
 });
 
 function prepareData() {
@@ -40,35 +37,61 @@ function prepareData() {
     ];
     cumulatedByContinent = gmynd.cumulateData(data, "continent", calculations);
     groupedByContinent = gmynd.groupData(data, "continent");
-    //console.log(Object.keys(groupedByContinent));
     console.log("The world has " + Object.keys(groupedByContinent).length + " continents.");
-    console.log("Europe has " + groupedByContinent["Europe"].length + " countries.");
-
-    maxPopulation = gmynd.dataMax(data, "population");
-    console.log("maxPopulation: ", maxPopulation);
+    // console.log("Europe has " + groupedByContinent["Europe"].length + " countries.");
 }
 
-function stackedDiagram() {
+function init() {
     const continentCount = Object.keys(groupedByContinent).length;
+    const maxCountriesPerContinent = gmynd.dataMax(cumulatedByContinent, "count");
+    const diagramHeight = stageHeight / maxCountriesPerContinent;
+    const diagramWidth = stageWidth / ((continentCount * 2) - 1);
+    const maxPopulation = gmynd.dataMax(data, "population");
     let continentIndex = 0;
     for (const prop in groupedByContinent) {
         const continentCountries = groupedByContinent[prop];
         console.log(prop, ":", continentCountries.length);
         continentCountries.forEach((country, index) => {
-            const width = stageWidth / ((continentCount * 2) - 1);
-            const height = 5;
-            const diagramY = index * height;
-            const diagramX = continentIndex * width * 2;
-
+            const mapArea = gmynd.map(country.population, 1, maxPopulation, 10, 100);
+            const mapRadius = gmynd.circleRadius(mapArea);
+            const computedProperties = {
+                diagramWidth: diagramWidth,
+                diagramHeight: diagramHeight,
+                diagramY: stageHeight - (index * diagramHeight) - diagramHeight,
+                diagramX: continentIndex * diagramWidth * 2,
+                mapSize: mapRadius * 2,
+                mapX: gmynd.map(country.longitude, -180, 180, 0, stageWidth) - mapRadius,
+                mapY: gmynd.map(country.latitude, -90, 90, stageHeight, 0) - mapRadius,
+            }
             let countryBox = $("<div></div>");
+            countryBox.addClass("country");
+            countryBox.data(country);
+            countryBox.data(computedProperties);
             countryBox.css({
-                position: "absolute",
-                width: width,
-                height: height,
-                left: diagramX,
-                top: stageHeight - diagramY,
-                "background-color": "white"
+                left: computedProperties.mapX,
+                top: computedProperties.mapY,
+                width: computedProperties.mapSize,
+                height: computedProperties.mapSize,
+                "border-radius": "50%"
             });
+            countryBox.mouseover(function () {
+                countryBox.addClass("highlight");
+                hoverlabel.text(countryBox.data().countryName);
+            });
+
+            countryBox.mouseout(function () {
+                countryBox.removeClass("highlight");
+                hoverlabel.text("");
+                // countryCircle.addClass("no-highlight-anymore");
+            });
+
+            countryBox.click(function () {
+                $(".clicked").removeClass("clicked");
+
+                countryBox.addClass("clicked");
+                clicklabel.text(countryBox.data().countryName);
+            });
+
             stage.append(countryBox);
         });
         continentIndex++;
@@ -76,41 +99,27 @@ function stackedDiagram() {
 }
 
 function drawMap() {
-    for (let i = 0; i < data.length; i++) {
-        let longitude = gmynd.map(data[i].longitude, -180, 180, 0, stageWidth);
-        let latitude = gmynd.map(data[i].latitude, -90, 90, stageHeight, 0);
-        const countryArea = gmynd.map(data[i].population, 1, maxPopulation, 10, 100);
-        // const countryRadius = Math.sqrt(countryArea / Math.PI);
-        const countryRadius = gmynd.circleRadius(countryArea);
-        let countryCircle = $("<div></div>");
-        countryCircle.addClass("circle");
-        countryCircle.css({
-            width: countryRadius * 2,
-            height: countryRadius * 2,
-            left: longitude - countryRadius,
-            top: latitude - countryRadius
-        });
+    $(".country").each(function () {
+        let countryData = $(this).data();
+        $(this).animate({
+            width: countryData.mapSize,
+            height: countryData.mapSize,
+            left: countryData.mapX,
+            top: countryData.mapY,
+            "border-radius": "50%"
+        }, 1000);
+    });
+}
 
-        countryCircle.data(data[i]);
-
-        countryCircle.mouseover(function () {
-            countryCircle.addClass("highlight");
-            hoverlabel.text(countryCircle.data().countryName);
-        });
-
-        countryCircle.mouseout(function () {
-            countryCircle.removeClass("highlight");
-            hoverlabel.text("");
-            // countryCircle.addClass("no-highlight-anymore");
-        });
-
-        countryCircle.click(function () {
-            $(".clicked").removeClass("clicked");
-
-            countryCircle.addClass("clicked");
-            clicklabel.text(countryCircle.data().countryName);
-        });
-
-        stage.append(countryCircle);
-    }
+function stackedDiagram() {
+    $(".country").each(function () {
+        let countryData = $(this).data();
+        $(this).animate({
+            width: countryData.diagramWidth,
+            height: countryData.diagramHeight,
+            left: countryData.diagramX,
+            top: countryData.diagramY,
+            "border-radius": "0%"
+        }, 1000);
+    });
 }

@@ -25,6 +25,11 @@ body {
     color:red;
 }
 
+.country {
+    background-color: white;
+    position: absolute;
+}
+
 .bar {
     background-color: white;
     position: absolute;
