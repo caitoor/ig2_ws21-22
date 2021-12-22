@@ -19,6 +19,7 @@ $(function () {
 function prepareData() {
     data = gmynd.mergeData(positionData, populationData, "alpha3Code", "countryCode");
     data = gmynd.mergeData(data, continentData, "alpha3Code", "code_3");
+    data = gmynd.mergeData(data, growthData, "alpha3Code", "countryCode");
     data = gmynd.deleteProps(data, ["code_2", "country", "country_code", "iso_3166_2"]);
     let calculations = [
         {

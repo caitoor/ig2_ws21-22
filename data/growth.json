@@ -1,0 +1,1066 @@
+[
+  {
+    "countryCode": "ABW",
+    "gdpGrowth": "1,999999104"
+  },
+  {
+    "countryCode": "AFE",
+    "gdpGrowth": "-2,949406721"
+  },
+  {
+    "countryCode": "AFG",
+    "gdpGrowth": "-2,351100673"
+  },
+  {
+    "countryCode": "AFW",
+    "gdpGrowth": "-0,884980919"
+  },
+  {
+    "countryCode": "AGO",
+    "gdpGrowth": "-5,39998739"
+  },
+  {
+    "countryCode": "ALB",
+    "gdpGrowth": "-3,955397927"
+  },
+  {
+    "countryCode": "AND",
+    "gdpGrowth": "-11,95269325"
+  },
+  {
+    "countryCode": "ARB",
+    "gdpGrowth": "-5,35450221"
+  },
+  {
+    "countryCode": "ARE",
+    "gdpGrowth": "-6,134500803"
+  },
+  {
+    "countryCode": "ARG",
+    "gdpGrowth": "-9,895268964"
+  },
+  {
+    "countryCode": "ARM",
+    "gdpGrowth": "-7,4"
+  },
+  {
+    "countryCode": "ASM",
+    "gdpGrowth": "3,921568627"
+  },
+  {
+    "countryCode": "ATG",
+    "gdpGrowth": "-20,19237057"
+  },
+  {
+    "countryCode": "AUS",
+    "gdpGrowth": "-0,003836559"
+  },
+  {
+    "countryCode": "AUT",
+    "gdpGrowth": "-6,734514076"
+  },
+  {
+    "countryCode": "AZE",
+    "gdpGrowth": "-4,3"
+  },
+  {
+    "countryCode": "BDI",
+    "gdpGrowth": "0,297577119"
+  },
+  {
+    "countryCode": "BEL",
+    "gdpGrowth": "-5,65965987"
+  },
+  {
+    "countryCode": "BEN",
+    "gdpGrowth": "3,8487924"
+  },
+  {
+    "countryCode": "BFA",
+    "gdpGrowth": "1,93032489"
+  },
+  {
+    "countryCode": "BGD",
+    "gdpGrowth": "3,509135882"
+  },
+  {
+    "countryCode": "BGR",
+    "gdpGrowth": "-4,387149834"
+  },
+  {
+    "countryCode": "BHR",
+    "gdpGrowth": "-5,085180213"
+  },
+  {
+    "countryCode": "BHS",
+    "gdpGrowth": "-14,5144814"
+  },
+  {
+    "countryCode": "BIH",
+    "gdpGrowth": "-3,196950134"
+  },
+  {
+    "countryCode": "BLR",
+    "gdpGrowth": "-0,9"
+  },
+  {
+    "countryCode": "BLZ",
+    "gdpGrowth": "-14,01053215"
+  },
+  {
+    "countryCode": "BMU",
+    "gdpGrowth": "-6,344080246"
+  },
+  {
+    "countryCode": "BOL",
+    "gdpGrowth": "-8,82949362"
+  },
+  {
+    "countryCode": "BRA",
+    "gdpGrowth": "-4,059048273"
+  },
+  {
+    "countryCode": "BRB",
+    "gdpGrowth": "-18,9795097"
+  },
+  {
+    "countryCode": "BRN",
+    "gdpGrowth": "1,133573351"
+  },
+  {
+    "countryCode": "BTN",
+    "gdpGrowth": "-10,07634112"
+  },
+  {
+    "countryCode": "BWA",
+    "gdpGrowth": "-8,492893511"
+  },
+  {
+    "countryCode": "CAF",
+    "gdpGrowth": "0,829010003"
+  },
+  {
+    "countryCode": "CAN",
+    "gdpGrowth": "-5,312944743"
+  },
+  {
+    "countryCode": "CEB",
+    "gdpGrowth": "-3,813338243"
+  },
+  {
+    "countryCode": "CHE",
+    "gdpGrowth": "-2,392826042"
+  },
+  {
+    "countryCode": "CHI",
+    "gdpGrowth": "5,898329661"
+  },
+  {
+    "countryCode": "CHL",
+    "gdpGrowth": "-5,771501669"
+  },
+  {
+    "countryCode": "CHN",
+    "gdpGrowth": "2,347513573"
+  },
+  {
+    "countryCode": "CIV",
+    "gdpGrowth": "1,958332479"
+  },
+  {
+    "countryCode": "CMR",
+    "gdpGrowth": "0,491914742"
+  },
+  {
+    "countryCode": "COD",
+    "gdpGrowth": "1,735422764"
+  },
+  {
+    "countryCode": "COG",
+    "gdpGrowth": "-7,944445679"
+  },
+  {
+    "countryCode": "COL",
+    "gdpGrowth": "-6,795758107"
+  },
+  {
+    "countryCode": "COM",
+    "gdpGrowth": "-0,128835488"
+  },
+  {
+    "countryCode": "CPV",
+    "gdpGrowth": "-14,78340501"
+  },
+  {
+    "countryCode": "CRI",
+    "gdpGrowth": "-4,063676535"
+  },
+  {
+    "countryCode": "CSS",
+    "gdpGrowth": "-8,161304989"
+  },
+  {
+    "countryCode": "CUB",
+    "gdpGrowth": "-10,94834097"
+  },
+  {
+    "countryCode": "CUW",
+    "gdpGrowth": "-18,4"
+  },
+  {
+    "countryCode": "CYM",
+    "gdpGrowth": "-6,730287428"
+  },
+  {
+    "countryCode": "CYP",
+    "gdpGrowth": "-5,2289881"
+  },
+  {
+    "countryCode": "CZE",
+    "gdpGrowth": "-5,793571284"
+  },
+  {
+    "countryCode": "DEU",
+    "gdpGrowth": "-4,569616717"
+  },
+  {
+    "countryCode": "DJI",
+    "gdpGrowth": "0,5"
+  },
+  {
+    "countryCode": "DMA",
+    "gdpGrowth": "-16,60491154"
+  },
+  {
+    "countryCode": "DNK",
+    "gdpGrowth": "-2,062124959"
+  },
+  {
+    "countryCode": "DOM",
+    "gdpGrowth": "-6,720239373"
+  },
+  {
+    "countryCode": "DZA",
+    "gdpGrowth": "-5,1"
+  },
+  {
+    "countryCode": "EAP",
+    "gdpGrowth": "1,37857513"
+  },
+  {
+    "countryCode": "EAR",
+    "gdpGrowth": "-4,505560993"
+  },
+  {
+    "countryCode": "EAS",
+    "gdpGrowth": "-0,133318687"
+  },
+  {
+    "countryCode": "ECA",
+    "gdpGrowth": "-1,543960022"
+  },
+  {
+    "countryCode": "ECS",
+    "gdpGrowth": "-5,622597922"
+  },
+  {
+    "countryCode": "ECU",
+    "gdpGrowth": "-7,750123377"
+  },
+  {
+    "countryCode": "EGY",
+    "gdpGrowth": "3,569669475"
+  },
+  {
+    "countryCode": "EMU",
+    "gdpGrowth": "-6,395558657"
+  },
+  {
+    "countryCode": "ERI",
+    "gdpGrowth": "8,679800101"
+  },
+  {
+    "countryCode": "ESP",
+    "gdpGrowth": "-10,82288649"
+  },
+  {
+    "countryCode": "EST",
+    "gdpGrowth": "-2,951069313"
+  },
+  {
+    "countryCode": "ETH",
+    "gdpGrowth": "6,056617792"
+  },
+  {
+    "countryCode": "EUU",
+    "gdpGrowth": "-5,95671784"
+  },
+  {
+    "countryCode": "FCS",
+    "gdpGrowth": "-4,74739784"
+  },
+  {
+    "countryCode": "FIN",
+    "gdpGrowth": "-2,870690593"
+  },
+  {
+    "countryCode": "FJI",
+    "gdpGrowth": "-15,71180398"
+  },
+  {
+    "countryCode": "FRA",
+    "gdpGrowth": "-7,855256037"
+  },
+  {
+    "countryCode": "FRO",
+    "gdpGrowth": "FRO"
+  },
+  {
+    "countryCode": "FSM",
+    "gdpGrowth": "-1,765415152"
+  },
+  {
+    "countryCode": "GAB",
+    "gdpGrowth": "-1,83776093"
+  },
+  {
+    "countryCode": "GBR",
+    "gdpGrowth": "-9,693816671"
+  },
+  {
+    "countryCode": "GEO",
+    "gdpGrowth": "-6,760439817"
+  },
+  {
+    "countryCode": "GHA",
+    "gdpGrowth": "0,414443458"
+  },
+  {
+    "countryCode": "GIB",
+    "gdpGrowth": "GIB"
+  },
+  {
+    "countryCode": "GIN",
+    "gdpGrowth": "6,988559971"
+  },
+  {
+    "countryCode": "GMB",
+    "gdpGrowth": "-0,215576043"
+  },
+  {
+    "countryCode": "GNB",
+    "gdpGrowth": "-2,399999999"
+  },
+  {
+    "countryCode": "GNQ",
+    "gdpGrowth": "-4,893356474"
+  },
+  {
+    "countryCode": "GRC",
+    "gdpGrowth": "-9,019129085"
+  },
+  {
+    "countryCode": "GRD",
+    "gdpGrowth": "-13,70773068"
+  },
+  {
+    "countryCode": "GRL",
+    "gdpGrowth": "1,67877331"
+  },
+  {
+    "countryCode": "GTM",
+    "gdpGrowth": "-1,519328029"
+  },
+  {
+    "countryCode": "GUM",
+    "gdpGrowth": "-11,85001769"
+  },
+  {
+    "countryCode": "GUY",
+    "gdpGrowth": "43,47955594"
+  },
+  {
+    "countryCode": "HIC",
+    "gdpGrowth": "-4,60126668"
+  },
+  {
+    "countryCode": "HKG",
+    "gdpGrowth": "-6,081467784"
+  },
+  {
+    "countryCode": "HND",
+    "gdpGrowth": "-8,964760184"
+  },
+  {
+    "countryCode": "HPC",
+    "gdpGrowth": "0,37596441"
+  },
+  {
+    "countryCode": "HRV",
+    "gdpGrowth": "-8,099761252"
+  },
+  {
+    "countryCode": "HTI",
+    "gdpGrowth": "-3,343372612"
+  },
+  {
+    "countryCode": "HUN",
+    "gdpGrowth": "-4,675686993"
+  },
+  {
+    "countryCode": "IBD",
+    "gdpGrowth": "-1,501036995"
+  },
+  {
+    "countryCode": "IBT",
+    "gdpGrowth": "-1,402624543"
+  },
+  {
+    "countryCode": "IDA",
+    "gdpGrowth": "-0,11233045"
+  },
+  {
+    "countryCode": "IDB",
+    "gdpGrowth": "-1,320759928"
+  },
+  {
+    "countryCode": "IDN",
+    "gdpGrowth": "-2,069543499"
+  },
+  {
+    "countryCode": "IDX",
+    "gdpGrowth": "1,007159938"
+  },
+  {
+    "countryCode": "IMN",
+    "gdpGrowth": "0,25486132"
+  },
+  {
+    "countryCode": "IND",
+    "gdpGrowth": "-7,251754782"
+  },
+  {
+    "countryCode": "INX",
+    "gdpGrowth": "INX"
+  },
+  {
+    "countryCode": "IRL",
+    "gdpGrowth": "5,866975509"
+  },
+  {
+    "countryCode": "IRN",
+    "gdpGrowth": "3,388261665"
+  },
+  {
+    "countryCode": "IRQ",
+    "gdpGrowth": "-15,67309279"
+  },
+  {
+    "countryCode": "ISL",
+    "gdpGrowth": "-6,50391225"
+  },
+  {
+    "countryCode": "ISR",
+    "gdpGrowth": "-2,153428489"
+  },
+  {
+    "countryCode": "ITA",
+    "gdpGrowth": "-8,9385925"
+  },
+  {
+    "countryCode": "JAM",
+    "gdpGrowth": -10
+  },
+  {
+    "countryCode": "JOR",
+    "gdpGrowth": "-1,551384466"
+  },
+  {
+    "countryCode": "JPN",
+    "gdpGrowth": "-4,585508281"
+  },
+  {
+    "countryCode": "KAZ",
+    "gdpGrowth": "-2,5"
+  },
+  {
+    "countryCode": "KEN",
+    "gdpGrowth": "-0,316182729"
+  },
+  {
+    "countryCode": "KGZ",
+    "gdpGrowth": "-8,616551031"
+  },
+  {
+    "countryCode": "KHM",
+    "gdpGrowth": "-3,147589098"
+  },
+  {
+    "countryCode": "KIR",
+    "gdpGrowth": "-1,947556647"
+  },
+  {
+    "countryCode": "KNA",
+    "gdpGrowth": "-14,39999655"
+  },
+  {
+    "countryCode": "KOR",
+    "gdpGrowth": "-0,852031429"
+  },
+  {
+    "countryCode": "KWT",
+    "gdpGrowth": "-8,685261653"
+  },
+  {
+    "countryCode": "LAC",
+    "gdpGrowth": "-6,78442876"
+  },
+  {
+    "countryCode": "LAO",
+    "gdpGrowth": "0,50303183"
+  },
+  {
+    "countryCode": "LBN",
+    "gdpGrowth": "-21,46426628"
+  },
+  {
+    "countryCode": "LBR",
+    "gdpGrowth": "-2,982916281"
+  },
+  {
+    "countryCode": "LBY",
+    "gdpGrowth": "-31,30000005"
+  },
+  {
+    "countryCode": "LCA",
+    "gdpGrowth": "-20,37364179"
+  },
+  {
+    "countryCode": "LCN",
+    "gdpGrowth": "-6,722427286"
+  },
+  {
+    "countryCode": "LDC",
+    "gdpGrowth": "0,682575687"
+  },
+  {
+    "countryCode": "LIC",
+    "gdpGrowth": "0,613176249"
+  },
+  {
+    "countryCode": "LIE",
+    "gdpGrowth": "-1,15748292"
+  },
+  {
+    "countryCode": "LKA",
+    "gdpGrowth": "-3,569076137"
+  },
+  {
+    "countryCode": "LMC",
+    "gdpGrowth": "-3,415832133"
+  },
+  {
+    "countryCode": "LMY",
+    "gdpGrowth": "-1,35238878"
+  },
+  {
+    "countryCode": "LSO",
+    "gdpGrowth": "-9,614037019"
+  },
+  {
+    "countryCode": "LTE",
+    "gdpGrowth": "0,154468773"
+  },
+  {
+    "countryCode": "LTU",
+    "gdpGrowth": "-0,132431461"
+  },
+  {
+    "countryCode": "LUX",
+    "gdpGrowth": "-1,776240229"
+  },
+  {
+    "countryCode": "LVA",
+    "gdpGrowth": "-3,618565992"
+  },
+  {
+    "countryCode": "MAC",
+    "gdpGrowth": "-54,01140215"
+  },
+  {
+    "countryCode": "MAF",
+    "gdpGrowth": "MAF"
+  },
+  {
+    "countryCode": "MAR",
+    "gdpGrowth": "-6,29325316"
+  },
+  {
+    "countryCode": "MCO",
+    "gdpGrowth": "7,5"
+  },
+  {
+    "countryCode": "MDA",
+    "gdpGrowth": "-6,969047157"
+  },
+  {
+    "countryCode": "MDG",
+    "gdpGrowth": "-7,140611591"
+  },
+  {
+    "countryCode": "MDV",
+    "gdpGrowth": "-33,4999021"
+  },
+  {
+    "countryCode": "MEA",
+    "gdpGrowth": "-4,007670518"
+  },
+  {
+    "countryCode": "MEX",
+    "gdpGrowth": "-8,309034659"
+  },
+  {
+    "countryCode": "MHL",
+    "gdpGrowth": "-2,207605402"
+  },
+  {
+    "countryCode": "MIC",
+    "gdpGrowth": "-1,379661305"
+  },
+  {
+    "countryCode": "MKD",
+    "gdpGrowth": "-5,208444057"
+  },
+  {
+    "countryCode": "MLI",
+    "gdpGrowth": "-1,235450447"
+  },
+  {
+    "countryCode": "MLT",
+    "gdpGrowth": "-7,001129615"
+  },
+  {
+    "countryCode": "MMR",
+    "gdpGrowth": "3,1737744"
+  },
+  {
+    "countryCode": "MNA",
+    "gdpGrowth": "-3,487914766"
+  },
+  {
+    "countryCode": "MNE",
+    "gdpGrowth": "-15,30689376"
+  },
+  {
+    "countryCode": "MNG",
+    "gdpGrowth": "-4,557751973"
+  },
+  {
+    "countryCode": "MNP",
+    "gdpGrowth": "-11,14258735"
+  },
+  {
+    "countryCode": "MOZ",
+    "gdpGrowth": "-1,233905711"
+  },
+  {
+    "countryCode": "MRT",
+    "gdpGrowth": "-1,763321794"
+  },
+  {
+    "countryCode": "MUS",
+    "gdpGrowth": "-14,89468757"
+  },
+  {
+    "countryCode": "MWI",
+    "gdpGrowth": "0,799998331"
+  },
+  {
+    "countryCode": "MYS",
+    "gdpGrowth": "-5,646944836"
+  },
+  {
+    "countryCode": "NAC",
+    "gdpGrowth": "-3,77318135"
+  },
+  {
+    "countryCode": "NAM",
+    "gdpGrowth": "-8,500149038"
+  },
+  {
+    "countryCode": "NCL",
+    "gdpGrowth": "2,100108827"
+  },
+  {
+    "countryCode": "NER",
+    "gdpGrowth": "3,580006403"
+  },
+  {
+    "countryCode": "NGA",
+    "gdpGrowth": "-1,794253082"
+  },
+  {
+    "countryCode": "NIC",
+    "gdpGrowth": "-1,977329393"
+  },
+  {
+    "countryCode": "NLD",
+    "gdpGrowth": "-3,798635993"
+  },
+  {
+    "countryCode": "NOR",
+    "gdpGrowth": "-0,765860365"
+  },
+  {
+    "countryCode": "NPL",
+    "gdpGrowth": "-2,088378695"
+  },
+  {
+    "countryCode": "NRU",
+    "gdpGrowth": "1,149425287"
+  },
+  {
+    "countryCode": "NZL",
+    "gdpGrowth": "1,862851533"
+  },
+  {
+    "countryCode": "OED",
+    "gdpGrowth": "-4,582640289"
+  },
+  {
+    "countryCode": "OMN",
+    "gdpGrowth": "-0,825239185"
+  },
+  {
+    "countryCode": "OSS",
+    "gdpGrowth": "-5,107580294"
+  },
+  {
+    "countryCode": "PAK",
+    "gdpGrowth": "-0,935389533"
+  },
+  {
+    "countryCode": "PAN",
+    "gdpGrowth": "-17,944864"
+  },
+  {
+    "countryCode": "PER",
+    "gdpGrowth": "-11,14881188"
+  },
+  {
+    "countryCode": "PHL",
+    "gdpGrowth": "-9,573029875"
+  },
+  {
+    "countryCode": "PLW",
+    "gdpGrowth": "-9,737417943"
+  },
+  {
+    "countryCode": "PNG",
+    "gdpGrowth": "-3,5"
+  },
+  {
+    "countryCode": "POL",
+    "gdpGrowth": "-2,540658682"
+  },
+  {
+    "countryCode": "PRE",
+    "gdpGrowth": "-3,078407789"
+  },
+  {
+    "countryCode": "PRI",
+    "gdpGrowth": "-3,903305193"
+  },
+  {
+    "countryCode": "PRK",
+    "gdpGrowth": "PRK"
+  },
+  {
+    "countryCode": "PRT",
+    "gdpGrowth": "-8,442456428"
+  },
+  {
+    "countryCode": "PRY",
+    "gdpGrowth": "-0,565695447"
+  },
+  {
+    "countryCode": "PSE",
+    "gdpGrowth": "-11,45745151"
+  },
+  {
+    "countryCode": "PSS",
+    "gdpGrowth": "-9,895311721"
+  },
+  {
+    "countryCode": "PST",
+    "gdpGrowth": "-4,800726244"
+  },
+  {
+    "countryCode": "PYF",
+    "gdpGrowth": "-7,599875554"
+  },
+  {
+    "countryCode": "QAT",
+    "gdpGrowth": "-3,557603999"
+  },
+  {
+    "countryCode": "ROU",
+    "gdpGrowth": "-3,930454057"
+  },
+  {
+    "countryCode": "RUS",
+    "gdpGrowth": "-2,951273899"
+  },
+  {
+    "countryCode": "RWA",
+    "gdpGrowth": "-3,355472122"
+  },
+  {
+    "countryCode": "SAS",
+    "gdpGrowth": "-5,706189649"
+  },
+  {
+    "countryCode": "SAU",
+    "gdpGrowth": "-4,106583413"
+  },
+  {
+    "countryCode": "SDN",
+    "gdpGrowth": "-3,629805626"
+  },
+  {
+    "countryCode": "SEN",
+    "gdpGrowth": "1,499763427"
+  },
+  {
+    "countryCode": "SGP",
+    "gdpGrowth": "-5,391021406"
+  },
+  {
+    "countryCode": "SLB",
+    "gdpGrowth": "-4,317260027"
+  },
+  {
+    "countryCode": "SLE",
+    "gdpGrowth": "-1,96894782"
+  },
+  {
+    "countryCode": "SLV",
+    "gdpGrowth": "-8,581312158"
+  },
+  {
+    "countryCode": "SMR",
+    "gdpGrowth": "2,374701565"
+  },
+  {
+    "countryCode": "SOM",
+    "gdpGrowth": "2,397716956"
+  },
+  {
+    "countryCode": "SRB",
+    "gdpGrowth": "-0,944596516"
+  },
+  {
+    "countryCode": "SSA",
+    "gdpGrowth": "-2,009366537"
+  },
+  {
+    "countryCode": "SSD",
+    "gdpGrowth": "-10,79336463"
+  },
+  {
+    "countryCode": "SSF",
+    "gdpGrowth": "-2,016793501"
+  },
+  {
+    "countryCode": "SST",
+    "gdpGrowth": "-5,674915062"
+  },
+  {
+    "countryCode": "STP",
+    "gdpGrowth": "3,089725555"
+  },
+  {
+    "countryCode": "SUR",
+    "gdpGrowth": "-15,90795119"
+  },
+  {
+    "countryCode": "SVK",
+    "gdpGrowth": "-4,358753808"
+  },
+  {
+    "countryCode": "SVN",
+    "gdpGrowth": "-4,229261389"
+  },
+  {
+    "countryCode": "SWE",
+    "gdpGrowth": "-2,948127879"
+  },
+  {
+    "countryCode": "SWZ",
+    "gdpGrowth": "-1,85052471"
+  },
+  {
+    "countryCode": "SXM",
+    "gdpGrowth": "-6,6"
+  },
+  {
+    "countryCode": "SYC",
+    "gdpGrowth": "-10,77092148"
+  },
+  {
+    "countryCode": "SYR",
+    "gdpGrowth": "3,747775387"
+  },
+  {
+    "countryCode": "TCA",
+    "gdpGrowth": "-26,7828754"
+  },
+  {
+    "countryCode": "TCD",
+    "gdpGrowth": "-0,947304885"
+  },
+  {
+    "countryCode": "TEA",
+    "gdpGrowth": "1,378306114"
+  },
+  {
+    "countryCode": "TEC",
+    "gdpGrowth": "-1,776853311"
+  },
+  {
+    "countryCode": "TGO",
+    "gdpGrowth": "1,752824967"
+  },
+  {
+    "countryCode": "THA",
+    "gdpGrowth": "-6,098983843"
+  },
+  {
+    "countryCode": "TJK",
+    "gdpGrowth": "4,499999517"
+  },
+  {
+    "countryCode": "TKM",
+    "gdpGrowth": "6,3"
+  },
+  {
+    "countryCode": "TLA",
+    "gdpGrowth": "-6,658719393"
+  },
+  {
+    "countryCode": "TLS",
+    "gdpGrowth": "10,37185524"
+  },
+  {
+    "countryCode": "TMN",
+    "gdpGrowth": "-3,404155854"
+  },
+  {
+    "countryCode": "TON",
+    "gdpGrowth": "0,654698596"
+  },
+  {
+    "countryCode": "TSA",
+    "gdpGrowth": "-5,706189649"
+  },
+  {
+    "countryCode": "TSS",
+    "gdpGrowth": "-2,016793501"
+  },
+  {
+    "countryCode": "TTO",
+    "gdpGrowth": "-7,853939948"
+  },
+  {
+    "countryCode": "TUN",
+    "gdpGrowth": "-9,182372594"
+  },
+  {
+    "countryCode": "TUR",
+    "gdpGrowth": "1,793551396"
+  },
+  {
+    "countryCode": "TUV",
+    "gdpGrowth": "4,4"
+  },
+  {
+    "countryCode": "TZA",
+    "gdpGrowth": "1,996343506"
+  },
+  {
+    "countryCode": "UGA",
+    "gdpGrowth": "2,951306422"
+  },
+  {
+    "countryCode": "UKR",
+    "gdpGrowth": "-4,000006101"
+  },
+  {
+    "countryCode": "UMC",
+    "gdpGrowth": "-0,713231665"
+  },
+  {
+    "countryCode": "URY",
+    "gdpGrowth": "-5,858721243"
+  },
+  {
+    "countryCode": "USA",
+    "gdpGrowth": "-3,642013879"
+  },
+  {
+    "countryCode": "UZB",
+    "gdpGrowth": "1,714770576"
+  },
+  {
+    "countryCode": "VCT",
+    "gdpGrowth": "-3,252833908"
+  },
+  {
+    "countryCode": "VEN",
+    "gdpGrowth": "-3,894386475"
+  },
+  {
+    "countryCode": "VGB",
+    "gdpGrowth": "VGB"
+  },
+  {
+    "countryCode": "VIR",
+    "gdpGrowth": "2,213541667"
+  },
+  {
+    "countryCode": "VNM",
+    "gdpGrowth": "2,905835584"
+  },
+  {
+    "countryCode": "VUT",
+    "gdpGrowth": "-6,813991132"
+  },
+  {
+    "countryCode": "WLD",
+    "gdpGrowth": "-3,362598486"
+  },
+  {
+    "countryCode": "WSM",
+    "gdpGrowth": "-2,5926083"
+  },
+  {
+    "countryCode": "XKX",
+    "gdpGrowth": "-5,340275302"
+  },
+  {
+    "countryCode": "YEM",
+    "gdpGrowth": "0,75244741"
+  },
+  {
+    "countryCode": "ZAF",
+    "gdpGrowth": "-6,431974826"
+  },
+  {
+    "countryCode": "ZMB",
+    "gdpGrowth": "-2,785055065"
+  },
+  {
+    "countryCode": "ZWE",
+    "gdpGrowth": "-6,248748224"
+  }
+]
